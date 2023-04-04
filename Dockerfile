@@ -17,5 +17,5 @@ COPY . /app
 EXPOSE 8000
 
 # Run app.py when the container launches
-CMD ["python", "-m", "flask", "run", "--host=0.0.0.0", "--port=80"]
+CMD ["python", "-m", "flask", "run", "--host=0.0.0.0", "--port=8000"]
 
